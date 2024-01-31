@@ -7,8 +7,8 @@ inputs:
   number2:
     required: true
     default: 0
-outputs: 
-  result:
+#outputs: 
+#  result:
 runs:
   using: 'node20'
   main: 'index.js'
