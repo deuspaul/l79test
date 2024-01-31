@@ -12,5 +12,5 @@ outputs:
     description: 'output of the sum'
 runs:
   using: 'node20'
-  main: 'index.js'
+  main: 'dist/index.js'
       
