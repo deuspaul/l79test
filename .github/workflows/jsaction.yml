@@ -1,7 +1,7 @@
 name: jsaction
 
 on:
-  workflow_dispatch:
+  push:
 
 jobs:
   test-js-action:
