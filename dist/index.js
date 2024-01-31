@@ -30796,7 +30796,7 @@ const github = __nccwpck_require__(8408);
 try {
     const jsNum1 = core.getInput('number1');
     const jsNum2 = core.getInput('number2');
-    result = jsNum1 + jsNum2; 
+    result = parseInt(jsNum1) + parseInt(jsNum2); 
     core.setOutput("result", result);
 } catch (error) {
     core.setFailed(error.message);
