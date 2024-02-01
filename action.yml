@@ -9,6 +9,7 @@ inputs:
     default: 0
 outputs: 
   result:
+    description: 'output of the sum'
 runs:
   using: 'node20'
   main: 'dist/index.js'
